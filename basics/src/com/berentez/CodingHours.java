@@ -10,7 +10,7 @@ public class CodingHours {
 
         int codeHours = HOURS * WORKDAYS * SEMESTER;
         int workHours = WORKHOURS * SEMESTER;
-        short percent = (short)(100 / (double)workHours * (double)codeHours );
+        float percent = (float)(100 / (double)workHours * (double)codeHours );
 
         System.out.println( percent+"%" );
 
